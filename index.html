@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="site.css" rel="stylesheet" />
+    <script src="site.js"></script>
+    <title></title>
+</head>
+<body>
+    <br><br>
+    <div><br>
+    <input type="number" id="input" size="20" value="0"><br>
+    <table>
+        <tr>
+            <td><button onclick="addDigit(7)">&nbsp;&nbsp;7&nbsp;&nbsp;</button></td>
+            <td><button onclick="addDigit(8)">&nbsp;&nbsp;8&nbsp;&nbsp;</button></td>
+            <td><button onclick="addDigit(9)">&nbsp;&nbsp;9&nbsp;&nbsp;</button></td>
+            <td><button onclick="getAction('multiply')">&nbsp;&nbsp;X&nbsp;&nbsp;</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="addDigit(4)">&nbsp;&nbsp;4&nbsp;&nbsp;</button></td>
+            <td><button onclick="addDigit(5)">&nbsp;&nbsp;5&nbsp;&nbsp;</button></td>
+            <td><button onclick="addDigit(6)">&nbsp;&nbsp;6&nbsp;&nbsp;</button></td>
+            <td><button onclick="getAction('subtract')">&nbsp;&nbsp;-&nbsp;&nbsp;</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="addDigit(1)">&nbsp;&nbsp;1&nbsp;&nbsp;</button></td>
+            <td><button onclick="addDigit(2)">&nbsp;&nbsp;2&nbsp;&nbsp;</button></td>
+            <td><button onclick="addDigit(3)">&nbsp;&nbsp;3&nbsp;&nbsp;</button></td>
+            <td><button onclick="getAction('add')">&nbsp;&nbsp;+&nbsp;&nbsp;</button></td>
+        </tr>
+        <tr>
+            <!--add dot (.) -->
+            <td><button onclick="reset()">&nbsp;&nbsp;C&nbsp;&nbsp;</button></td>
+            <td><button onclick="addZero()">&nbsp;&nbsp;0&nbsp;&nbsp;</button></td>
+            <td><button onclick="getAction('divide')">&nbsp;&nbsp;/&nbsp;&nbsp;</button></td>
+            <td><button onclick="calculate()">&nbsp;&nbsp;=&nbsp;&nbsp;</button></td>
+        </tr>
+
+    </table>
+    <!--<input type="reset" id="reset" onclick="reset()" value="Reset"><br>-->
+    <br>
+    </div>
+    <br><br>
+
+</body>
+</html>
