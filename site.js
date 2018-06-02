@@ -1,4 +1,4 @@
-﻿var num1 = 0;
+var num1 = 0;
 var num2 = 0;
 var result = 0;
 var isThereZeroOnTheLeft = true;
@@ -51,6 +51,9 @@ function calculate() { // =
         result = num1 - num2;
     }
     input.value = result;
+    if (result === 0) {
+        isThereZeroOnTheLeft = true;
+    }
     num1 = 0;
     num2 = 0;
     result = 0;
